@@ -48,7 +48,7 @@ export class AppController {
     return {
       projects: [
         {
-          id: uuid(),
+          id: 'ZXxxxxx',
           title: 'Mella Full Screen Slider',
           price: '3K - 6K',
           currency: '$',
@@ -60,7 +60,7 @@ export class AppController {
           },
           tags: [
             {
-              id: uuid(),
+              id: 'ZXxxxxxx',
               text: 'Vue JS',
               color: colors.green[600],
             },
@@ -76,38 +76,38 @@ export class AppController {
     return {
       todos: [
         {
-          id: uuid(),
+          id: 'ZXxxxxxxx',
           title: 'Finish the proposal design and contract for the client ASAP',
           deadline: moment().subtract(2, 'days'),
           done: false,
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxx',
           title: 'Finish the proposal design and contract for the client ASAP',
           deadline: moment(),
           done: false,
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxx',
           title:
             'Upload the files for the client @Adrian Stefan with the fonts, assets exported and all the fancy svgs',
           deadline: moment().add(2, 'days'),
           done: false,
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxx',
           title: 'Re-write the card component with hooks and context',
           deadline: moment().add(5, 'days'),
           done: false,
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxa',
           title: 'Send proposal for the fintech project',
           deadline: moment().add(5, 'days'),
           done: false,
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaa',
           title:
             'Create todo app with react hooks just to get a better understanding of the concept',
           deadline: moment().add(7, 'days'),
@@ -122,25 +122,25 @@ export class AppController {
     return {
       notifications: [
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaa',
           title: 'New order has been received',
           type: 'order',
           created_at: moment().subtract(2, 'hours'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaa',
           title: 'New customer is registered',
           type: 'user',
           created_at: moment().subtract(1, 'day'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaa',
           title: 'Project has been approved',
           type: 'project',
           created_at: moment().subtract(3, 'days'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaa',
           title: 'New feature has been added',
           type: 'feature',
           created_at: moment().subtract(7, 'days'),
@@ -179,7 +179,7 @@ export class AppController {
       draft: [],
       events: [
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaa',
           title: 'Call Samantha',
           desc: 'Inform about new contract',
           color: colors.green['700'],
@@ -187,28 +187,28 @@ export class AppController {
           end: moment('2019-07-01 17:02:00'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaaa',
           title: 'Meet with IBM',
           desc: 'Discuss about new partnership',
           start: moment('2019-07-03 08:55:00'),
           end: moment('2019-07-04 15:02:00'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaaaa',
           title: 'SCRUM Planning',
           desc: 'Prepare documentation',
           allDay: true,
           start: moment('2019-07-14 16:55:00'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaaaaa',
           title: 'Beign SEM',
           desc: 'Meet with team to discuss',
           allDay: true,
           start: moment('2019-07-18 07:00:00'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaaaaaa',
           title: 'Fire John',
           desc: 'Sorry, John',
           color: colors.green['700'],
@@ -216,14 +216,14 @@ export class AppController {
           end: moment('2019-07-20 09:30:00'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaaaaaaa',
           title: 'Call Alex',
           desc: 'Discuss about the new project',
           allDay: true,
           start: moment('2019-07-30 08:00:00'),
         },
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaaaaaaaa',
           title: 'Visit Samantha',
           color: colors.green['700'],
           desc: 'Get a new quote for the payment processor',
@@ -239,7 +239,7 @@ export class AppController {
     return {
       conversations: [
         {
-          id: uuid(),
+          id: 'ZXxxxxxxxxxxaaaaaaaaaaaaaa',
           otherUser: {
             name: 'Adam Denisov',
             avatar: '/images/avatars/avatar_7.png',
@@ -248,7 +248,7 @@ export class AppController {
           },
           messages: [
             {
-              id: uuid(),
+              id: '334',
               sender: {
                 authUser: false,
                 name: 'Adam Denisov',
@@ -261,7 +261,7 @@ export class AppController {
               created_at: moment().subtract(10, 'hours'),
             },
             {
-              id: uuid(),
+              id: '33453453',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -273,7 +273,7 @@ export class AppController {
               created_at: moment().subtract(2, 'hours'),
             },
             {
-              id: uuid(),
+              id: '3345345345',
               sender: {
                 authUser: false,
                 name: 'Adam Denisov',
@@ -285,7 +285,7 @@ export class AppController {
               created_at: moment().subtract(5, 'minutes'),
             },
             {
-              id: uuid(),
+              id: '3345345345345',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -297,7 +297,7 @@ export class AppController {
               created_at: moment().subtract(3, 'minutes'),
             },
             {
-              id: uuid(),
+              id: '33453453453453',
               sender: {
                 authUser: false,
                 name: 'Adam Denisov',
@@ -308,7 +308,7 @@ export class AppController {
               created_at: moment().subtract(1, 'minute'),
             },
             {
-              id: uuid(),
+              id: '3345345345345353',
               sender: {
                 authUser: false,
                 name: 'Adam Denisov',
@@ -323,7 +323,7 @@ export class AppController {
           created_at: moment().subtract(1, 'minute'),
         },
         {
-          id: uuid(),
+          id: '3345345345345353453',
           otherUser: {
             name: 'Ekaterina Tankova',
             avatar: '/images/avatars/avatar_2.png',
@@ -332,7 +332,7 @@ export class AppController {
           },
           messages: [
             {
-              id: uuid(),
+              id: '334534534534535345345',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -343,7 +343,7 @@ export class AppController {
               created_at: moment().subtract(6, 'minutes'),
             },
             {
-              id: uuid(),
+              id: '3345345345345353453453',
               sender: {
                 authUser: false,
                 name: 'Ekaterina Tankova',
@@ -358,7 +358,7 @@ export class AppController {
           created_at: moment().subtract(26, 'minutes'),
         },
         {
-          id: uuid(),
+          id: '3345345345345353453453',
           otherUser: {
             name: 'Emilee Simchenko',
             avatar: '/images/avatars/avatar_9.png',
@@ -367,7 +367,7 @@ export class AppController {
           },
           messages: [
             {
-              id: uuid(),
+              id: '3345345345345353453453453',
               sender: {
                 authUser: false,
                 name: 'Emilee Simchenko',
@@ -378,7 +378,7 @@ export class AppController {
               created_at: moment().subtract(2, 'hours'),
             },
             {
-              id: uuid(),
+              id: '33453453453453534534534535',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -391,7 +391,7 @@ export class AppController {
                 .subtract(2, 'minutes'),
             },
             {
-              id: uuid(),
+              id: '3345345345345353453453453534',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -406,7 +406,7 @@ export class AppController {
           created_at: moment().subtract(3, 'hours'),
         },
         {
-          id: uuid(),
+          id: '334534534534535345345345353453',
           otherUser: {
             name: 'Kwak Seong-Min',
             avatar: '/images/avatars/avatar_10.png',
@@ -415,7 +415,7 @@ export class AppController {
           },
           messages: [
             {
-              id: uuid(),
+              id: '33453453453453534534534535345345',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -427,7 +427,7 @@ export class AppController {
               created_at: moment().subtract(3, 'days'),
             },
             {
-              id: uuid(),
+              id: '334534534534535345345345353453455',
               sender: {
                 authUser: false,
                 name: 'Kwak Seong-Min',
@@ -442,7 +442,7 @@ export class AppController {
           created_at: moment().subtract(2, 'days'),
         },
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555',
           otherUser: {
             name: 'Cao Yu',
             avatar: '/images/avatars/avatar_3.png',
@@ -451,7 +451,7 @@ export class AppController {
           },
           messages: [
             {
-              id: uuid(),
+              id: '334534534534535345345345353453455555',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -462,7 +462,7 @@ export class AppController {
               created_at: moment().subtract(3, 'days'),
             },
             {
-              id: uuid(),
+              id: '3345345345345353453453453534534555555',
               sender: {
                 authUser: false,
                 name: 'Cao Yu',
@@ -477,7 +477,7 @@ export class AppController {
           created_at: moment().subtract(5, 'days'),
         },
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555',
           otherUser: {
             name: 'Clarke Gillebert',
             avatar: '/images/avatars/avatar_6.png',
@@ -486,7 +486,7 @@ export class AppController {
           },
           messages: [
             {
-              id: uuid(),
+              id: '334534534534535345345345353453455555555',
               sender: {
                 authUser: false,
                 name: 'Clarke Gillebert',
@@ -497,7 +497,7 @@ export class AppController {
               created_at: moment().subtract(2, 'days'),
             },
             {
-              id: uuid(),
+              id: '3345345345345353453453453534534555555555',
               sender: {
                 authUser: true,
                 name: 'Shen Zhi',
@@ -530,7 +530,7 @@ export class AppController {
       ],
       connections: [
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555555',
           name: 'Ekaterina Tankova',
           avatar: '/images/avatars/avatar_2.png',
           active: false,
@@ -538,7 +538,7 @@ export class AppController {
           group: 'clients',
         },
         {
-          id: uuid(),
+          id: '334534534534535345345345353453455555555555',
           name: 'Cao Yu',
           avatar: '/images/avatars/avatar_3.png',
           active: true,
@@ -546,7 +546,7 @@ export class AppController {
           group: 'clients',
         },
         {
-          id: uuid(),
+          id: '3345345345345353453453453534534555555555555',
           name: 'Anje Keizer',
           avatar: '/images/avatars/avatar_5.png',
           active: false,
@@ -554,7 +554,7 @@ export class AppController {
           group: 'clients',
         },
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555555555',
           name: 'Ava Gregoraci',
           avatar: '/images/avatars/avatar_8.png',
           active: true,
@@ -562,7 +562,7 @@ export class AppController {
           group: 'clients',
         },
         {
-          id: uuid(),
+          id: '334534534534535345345345353453455555555555555',
           name: 'Clarke Gillebert',
           avatar: '/images/avatars/avatar_6.png',
           active: true,
@@ -570,7 +570,7 @@ export class AppController {
           group: 'friends',
         },
         {
-          id: uuid(),
+          id: '3345345345345353453453453534534555555555555555',
           name: 'Adam Denisov',
           avatar: '/images/avatars/avatar_7.png',
           active: false,
@@ -578,7 +578,7 @@ export class AppController {
           group: 'friends',
         },
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555555555555',
           name: 'Emilee Simchenko',
           avatar: '/images/avatars/avatar_9.png',
           active: true,
@@ -586,7 +586,7 @@ export class AppController {
           group: 'friends',
         },
         {
-          id: uuid(),
+          id: '334534534534535345345345353453455555555555555555',
           name: 'Kwak Seong-Min',
           avatar: '/images/avatars/avatar_10.png',
           active: true,
@@ -594,7 +594,7 @@ export class AppController {
           group: 'friends',
         },
         {
-          id: uuid(),
+          id: '3345345345345353453453453534534555555555555555555',
           name: 'Shen Zhi',
           avatar: '/images/avatars/avatar_11.png',
           active: true,
@@ -602,7 +602,7 @@ export class AppController {
           group: 'friends',
         },
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555555555555555',
           name: 'Merrile Burgett',
           avatar: '/images/avatars/avatar_12.png',
           active: false,
@@ -617,7 +617,7 @@ export class AppController {
     return {
       customers: [
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555555555555555d',
           name: 'Ekaterina Tankova',
           email: 'ekaterina.tankova@devias.io',
           avatar: '/images/avatars/avatar_2.png',
@@ -629,7 +629,7 @@ export class AppController {
           location: 'West Virginia, USA',
         },
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555555555555555dd',
           name: 'Cao Yu',
           email: 'cao.yu@devias.io',
           avatar: '/images/avatars/avatar_3.png',
@@ -641,7 +641,7 @@ export class AppController {
           location: 'Bristow',
         },
         {
-          id: uuid(),
+          id: '33453453453453534534534535345345555555555555555555ddd',
           name: 'Alexa Richardson',
           email: 'alexa.richardson@devias.io',
           avatar: '/images/avatars/avatar_4.png',
@@ -653,7 +653,7 @@ export class AppController {
           location: 'Georgia, USA',
         },
         {
-          id: uuid(),
+          id: 'dd',
           name: 'Anje Keizer',
           email: 'anje.keizer@devias.io',
           avatar: '/images/avatars/avatar_5.png',
@@ -665,7 +665,7 @@ export class AppController {
           location: 'Ohio, USA',
         },
         {
-          id: uuid(),
+          id: 'ddd',
           name: 'Clarke Gillebert',
           email: 'clarke.gillebert@devias.io',
           avatar: '/images/avatars/avatar_6.png',
@@ -677,7 +677,7 @@ export class AppController {
           location: 'Texas, USA',
         },
         {
-          id: uuid(),
+          id: 'dddd',
           name: 'Adam Denisov',
           email: 'adam.denisov@devias.io',
           avatar: '/images/avatars/avatar_7.png',
@@ -689,7 +689,7 @@ export class AppController {
           location: 'California, USA',
         },
         {
-          id: uuid(),
+          id: 'ddddd',
           name: 'Ava Gregoraci',
           email: 'ava.gregoraci@devias.io',
           avatar: '/images/avatars/avatar_8.png',
@@ -701,7 +701,7 @@ export class AppController {
           location: 'California, USA',
         },
         {
-          id: uuid(),
+          id: 'dddddd',
           name: 'Emilee Simchenko',
           email: 'emilee.simchenko@devias.io',
           avatar: '/images/avatars/avatar_9.png',
@@ -713,7 +713,7 @@ export class AppController {
           location: 'Nevada, USA',
         },
         {
-          id: uuid(),
+          id: 'ddddddcx',
           name: 'Kwak Seong-Min',
           email: 'kwak.seong.min@devias.io',
           avatar: '/images/avatars/avatar_10.png',
@@ -725,7 +725,7 @@ export class AppController {
           location: 'Michigan, USA',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsa',
           name: 'Shen Zhi',
           email: 'shen.zhi@devias.io',
           avatar: '/images/avatars/avatar_11.png',
@@ -737,7 +737,7 @@ export class AppController {
           location: 'Utah, USA',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaas',
           name: 'Merrile Burgett',
           email: 'merrile.burgett@devias.io',
           avatar: '/images/avatars/avatar_12.png',
@@ -770,22 +770,22 @@ export class AppController {
         currency: '$',
         invoices: [
           {
-            id: uuid(),
+            id: 'ddddddcxsaass',
             type: 'paid',
             value: 10.0,
           },
           {
-            id: uuid(),
+            id: 'ddddddcxsaasss',
             type: 'paid',
             value: 15.0,
           },
           {
-            id: uuid(),
+            id: 'ddddddcxsaassss',
             type: 'due',
             value: 5,
           },
           {
-            id: uuid(),
+            id: 'ddddddcxsaasssss',
             type: 'income',
             value: 10.0,
           },
@@ -794,7 +794,7 @@ export class AppController {
         balance: 0,
         emails: [
           {
-            id: uuid(),
+            id: 'ddddddcxsaassssss',
             description: 'Order confirmation',
             created_at: moment()
               .subtract(3, 'days')
@@ -802,7 +802,7 @@ export class AppController {
               .subtract(34, 'minutes'),
           },
           {
-            id: uuid(),
+            id: 'ddddddcxsaasssssss',
             description: 'Order confirmation',
             created_at: moment()
               .subtract(4, 'days')
@@ -819,7 +819,7 @@ export class AppController {
     return {
       invoices: [
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssx',
           date: moment(),
           description: 'Freelancer Subscription (12/05/2019 - 11/06/2019)',
           paymentMethod: 'Credit Card',
@@ -828,7 +828,7 @@ export class AppController {
           status: 'paid',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxs',
           date: moment(),
           description: 'Freelancer Subscription (12/05/2019 - 11/06/2019)',
           paymentMethod: 'Credit Card',
@@ -845,7 +845,7 @@ export class AppController {
     return {
       logs: [
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxss',
           status: 200,
           method: 'POST',
           route: '/api/purchase',
@@ -857,7 +857,7 @@ export class AppController {
             .subtract(56, 'seconds'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxssz',
           status: 522,
           error: 'Invalid credit card',
           method: 'POST',
@@ -870,7 +870,7 @@ export class AppController {
             .subtract(56, 'seconds'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszs',
           status: 200,
           method: 'DELETE',
           route: '/api/products/d65654e/remove',
@@ -882,7 +882,7 @@ export class AppController {
             .subtract(23, 'seconds'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszss',
           status: 200,
           method: 'GET',
           route: '/api/products/d65654e/add',
@@ -894,7 +894,7 @@ export class AppController {
             .subtract(54, 'seconds'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszss',
           status: 200,
           method: 'GET',
           route: '/api/products/c85727f/add',
@@ -906,7 +906,7 @@ export class AppController {
             .subtract(16, 'seconds'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszsss',
           status: 200,
           method: 'GET',
           route: '/api/products/c85727f',
@@ -918,7 +918,7 @@ export class AppController {
             .subtract(30, 'seconds'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssss',
           status: 200,
           method: 'GET',
           route: '/api/products',
@@ -930,7 +930,7 @@ export class AppController {
             .subtract(40, 'seconds'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszsssss',
           status: 200,
           method: 'POST',
           route: '/api/login',
@@ -950,56 +950,56 @@ export class AppController {
     return {
       referrals: [
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssss',
           color: colors.blueGrey['700'],
           name: 'GitHub',
           initials: 'GT',
           value: '53,032',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssx',
           color: colors.cyan['500'],
           name: 'Twitter',
           initials: 'TW',
           value: '39,551',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxd',
           color: colors.indigo[600],
           name: 'Hacker News',
           initials: 'HN',
           value: '23,150',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxdd',
           color: colors.red['500'],
           name: 'Stack Overflow',
           initials: 'SO',
           value: '14,093',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxdds',
           color: colors.orange['900'],
           name: 'Reddit.com',
           initials: 'RD',
           value: '7,251',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsa',
           color: colors.blueGrey['900'],
           name: 'Dev.to',
           initials: 'DE',
           value: '5,694',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacx',
           color: colors.blue['900'],
           name: 'Facebook',
           initials: 'FB',
           value: '3,643',
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasd',
           color: colors.blueGrey['900'],
           name: 'Medium',
           initials: 'MD',
@@ -1014,7 +1014,7 @@ export class AppController {
     return {
       products: [
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdc',
           type: 'freelancer_basic',
           name: 'Freelancer Basic Subscription',
           image: '/images/products/product_freelancer.svg',
@@ -1024,7 +1024,7 @@ export class AppController {
           progress: 93,
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdcvf',
           type: 'freelancer_extra',
           name: 'Freelancer Extra Subscription',
           image: '/images/products/product_freelancer.svg',
@@ -1034,7 +1034,7 @@ export class AppController {
           progress: 76,
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdcvfs',
           type: 'agency_basic',
           name: 'Agency Basic Subscription',
           image: '/images/products/product_agency.svg',
@@ -1044,7 +1044,7 @@ export class AppController {
           progress: 60,
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdcvfsd',
           type: 'enterprise_basic',
           name: 'Enterprise Basic Subscription',
           image: '/images/products/product_enterprise.svg',
@@ -1054,7 +1054,7 @@ export class AppController {
           progress: 46,
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdcvfsdsd',
           type: 'enterprise_extra',
           name: 'Enterprise Extra Subscription',
           image: '/images/products/product_enterprise.svg',
@@ -1072,7 +1072,7 @@ export class AppController {
     return {
       customers: [
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdcvfsdsdsd',
           type: 'payment',
           description: 'Subscription Purchase',
           author: {
@@ -1082,7 +1082,7 @@ export class AppController {
           created_at: moment().subtract(23, 'minutes'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdcvfsdsdsdsd',
           type: 'payment',
           description: 'Subscription Purchase',
           author: {
@@ -1092,7 +1092,7 @@ export class AppController {
           created_at: moment().subtract(56, 'minutes'),
         },
         {
-          id: uuid(),
+          id: 'ddddddcxsaasssssssxsszssssssxddsacxasdsdcvfsdsdsdsd',
           type: 'payment',
           description: 'Subscription Purchase',
           author: {
@@ -1102,7 +1102,7 @@ export class AppController {
           created_at: moment().subtract(2, 'hours'),
         },
         {
-          id: uuid(),
+          id: 'cxcv',
           type: 'payment',
           description: 'Subscription Purchase',
           author: {
@@ -1112,7 +1112,7 @@ export class AppController {
           created_at: moment().subtract(5, 'minutes'),
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcv',
           type: 'payment',
           description: 'Subscription Purchase',
           author: {
@@ -1130,19 +1130,19 @@ export class AppController {
     return {
       earnings: [
         {
-          id: uuid(),
+          id: 'cxcvxzcvzx',
           label: 'Subscriptions',
           value: 56,
           color: colors.indigo[500],
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxc',
           label: 'Afiliate',
           value: 24,
           color: colors.indigo[300],
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxv',
           label: 'Sales',
           value: 20,
           color: colors.indigo[100],
@@ -1156,7 +1156,7 @@ export class AppController {
     return {
       orders: [
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvc',
           ref: 'DEV1042',
           items: 7,
           value: '25.00',
@@ -1168,7 +1168,7 @@ export class AppController {
           status: 'pending',
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvc',
           ref: 'DEV1041',
           items: 8,
           value: '25.00',
@@ -1180,7 +1180,7 @@ export class AppController {
           status: 'complete',
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvcc',
           ref: 'DEV1040',
           items: 4,
           value: '25.00',
@@ -1192,7 +1192,7 @@ export class AppController {
           status: 'rejected',
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccc',
           ref: 'DEV1039',
           items: 1,
           value: '25.00',
@@ -1204,7 +1204,7 @@ export class AppController {
           status: 'pending',
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvcccc',
           ref: 'DEV1038',
           items: 5,
           value: '25.00',
@@ -1216,7 +1216,7 @@ export class AppController {
           status: 'complete',
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccccc',
           ref: 'DEV1037',
           items: 2,
           value: '25.00',
@@ -1236,7 +1236,7 @@ export class AppController {
     return {
       projects: [
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvcccccc',
           title: 'Mella Full Screen Slider',
           price: '12,500',
           currency: '$',
@@ -1252,7 +1252,7 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccccccc',
           title: 'Dashboard Design',
           price: '15,750',
           currency: '$',
@@ -1268,7 +1268,7 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvcccccccc',
           title: 'Ten80 Web Design',
           price: '15,750',
           currency: '$',
@@ -1284,7 +1284,7 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccccccccc',
           title: 'Neura e-commerce UI Kit',
           price: '12,500',
           currency: '$',
@@ -1300,7 +1300,7 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvcccccccccc',
           title: 'Administrator Dashboard',
           price: '15,750',
           currency: '$',
@@ -1330,7 +1330,7 @@ export class AppController {
   getTestFor1234edfrgcvbhnjmklo(): any {
     return {
       invoice: {
-        id: uuid(),
+        id: 'cxcvxzcvzxczxvccccccccccc',
         due_date: moment(),
         issue_date: moment().add(15, 'days'),
         ref: 'DEV-9483',
@@ -1342,7 +1342,7 @@ export class AppController {
         },
         products: [
           {
-            id: uuid(),
+            id: 'cxcvxzcvzxczxvcccccccccccc',
             desc: 'Freelancer Subscription (12/05/2019 - 11/06/2019)',
             value: '55.50',
           },
@@ -1379,7 +1379,7 @@ export class AppController {
       ],
       tasks: [
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccccccccccccc',
           ref: '38',
           list: 'incoming',
           title: 'Call with sales of HubSpot',
@@ -1396,7 +1396,7 @@ export class AppController {
           deadline: moment().add(7, 'days'),
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvcccccccccccccc',
           ref: '37',
           list: 'incoming',
           title: 'Interview for the Asis. Sales Manager',
@@ -1412,7 +1412,7 @@ export class AppController {
           deadline: moment().add(6, 'days'),
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccccccccccccccc',
           ref: '39',
           list: 'incoming',
           title: 'Change the height of the top bar because it looks too chunky',
@@ -1425,7 +1425,7 @@ export class AppController {
           deadline: moment().add(5, 'days'),
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvcccccccccccccccc',
           ref: '19',
           list: 'incoming',
           title: 'Integrate Stripe API',
@@ -1442,7 +1442,7 @@ export class AppController {
           deadline: moment().add(4, 'days'),
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccccccccccccccccq',
           ref: '15',
           list: 'in_progress',
           title: 'Update the customer API for payments',
@@ -1455,7 +1455,7 @@ export class AppController {
           deadline: moment().add(4, 'hours'),
         },
         {
-          id: uuid(),
+          id: 'cxcvxzcvzxczxvccccccccccccccccqq',
           ref: '10',
           list: 'in_progress',
           title: 'Redesign the landing page',
@@ -1471,7 +1471,7 @@ export class AppController {
           deadline: moment().add(4, 'hours'),
         },
         {
-          id: uuid(),
+          id: '34',
           ref: '24',
           list: 'in_review',
           title: 'Change the height of the top bar because it looks too chunky',
@@ -1488,7 +1488,7 @@ export class AppController {
           deadline: moment().subtract(1, 'days'),
         },
         {
-          id: uuid(),
+          id: '34c',
           ref: '21',
           list: 'in_review',
           title: 'Integrate Stripe API',
@@ -1506,7 +1506,7 @@ export class AppController {
           deadline: moment().subtract(1, 'days'),
         },
         {
-          id: uuid(),
+          id: '34cc',
           ref: '17',
           list: 'completed',
           title: 'Design Customer Management Page',
@@ -1522,7 +1522,7 @@ export class AppController {
           deadline: moment().subtract(7, 'days'),
         },
         {
-          id: uuid(),
+          id: '34ccc',
           ref: '23',
           list: 'completed',
           title: 'Integrate Messaging API',
@@ -1549,7 +1549,7 @@ export class AppController {
     return {
       emails: [
         {
-          id: uuid(),
+          id: '34cccs',
           seen: true,
           favorited: true,
           labels: [
@@ -1582,7 +1582,7 @@ export class AppController {
           created_at: moment(),
         },
         {
-          id: uuid(),
+          id: '34cccsa',
           seen: false,
           favorited: false,
           labels: [],
@@ -1597,7 +1597,7 @@ export class AppController {
           created_at: moment(),
         },
         {
-          id: uuid(),
+          id: '34cccsaz',
           seen: false,
           favorited: false,
           subject: 'Flight reminder',
@@ -1616,7 +1616,7 @@ export class AppController {
           created_at: moment(),
         },
         {
-          id: uuid(),
+          id: '34cccsazcf',
           seen: true,
           favorited: true,
           labels: [],
@@ -1638,7 +1638,7 @@ export class AppController {
     return {
       orders: [
         {
-          id: uuid(),
+          id: '34cccsazcfd',
           created_at: moment().subtract(10, 'minutes'),
           customer: {
             name: 'Ekaterina Tankova',
@@ -1653,7 +1653,7 @@ export class AppController {
           status: 'inactive',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdx',
           created_at: moment()
             .subtract(32, 'minutes')
             .subtract(23, 'seconds'),
@@ -1670,7 +1670,7 @@ export class AppController {
           status: 'inactive',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxd',
           created_at: moment()
             .subtract(36, 'minutes')
             .subtract(51, 'seconds'),
@@ -1687,7 +1687,7 @@ export class AppController {
           status: 'active',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsa',
           created_at: moment()
             .subtract(38, 'minutes')
             .subtract(55, 'seconds'),
@@ -1704,7 +1704,7 @@ export class AppController {
           status: 'inactive',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsad',
           created_at: moment()
             .subtract(40, 'minutes')
             .subtract(3, 'seconds'),
@@ -1721,7 +1721,7 @@ export class AppController {
           status: 'active',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfv',
           created_at: moment()
             .subtract(45, 'minutes')
             .subtract(32, 'seconds'),
@@ -1738,7 +1738,7 @@ export class AppController {
           status: 'active',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvs',
           created_at: moment()
             .subtract(48, 'minutes')
             .subtract(57, 'seconds'),
@@ -1756,7 +1756,7 @@ export class AppController {
           status: 'inactive',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvsc',
           created_at: moment()
             .subtract(49, 'minutes')
             .subtract(4, 'seconds'),
@@ -1773,7 +1773,7 @@ export class AppController {
           status: 'active',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvsca',
           created_at: moment()
             .subtract(57, 'minutes')
             .subtract(43, 'seconds'),
@@ -1790,7 +1790,7 @@ export class AppController {
           status: 'inactive',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscac',
           created_at: moment()
             .subtract(59, 'minutes')
             .subtract(6, 'seconds'),
@@ -1807,7 +1807,7 @@ export class AppController {
           status: 'inactive',
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscacasd',
           created_at: moment()
             .subtract(1, 'hour')
             .subtract(15, 'minutes')
@@ -1832,7 +1832,7 @@ export class AppController {
   getTestFor1234edfrgcvbhnjmkloiuyy(): any {
     return {
       order: {
-        id: uuid(),
+        id: '34cccsazcfdxdsadfvscacasd',
         ref: 'FAD107',
         promoCode: null,
         value: '55.25',
@@ -1846,7 +1846,7 @@ export class AppController {
         },
         items: [
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxz',
             name: 'Project Points',
             cuantity: 25,
             billing: 'monthly',
@@ -1855,7 +1855,7 @@ export class AppController {
             currency: '$',
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxc',
             name: 'Freelancer Subscription',
             cuantity: 1,
             billing: 'monthly',
@@ -1874,7 +1874,7 @@ export class AppController {
     return {
       projects: [
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscacasdcxzxc',
           title: 'Mella Full Screen Slider',
           author: {
             name: 'Anje Keizer',
@@ -1897,7 +1897,7 @@ export class AppController {
           updated_at: moment().subtract(24, 'minutes'),
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscacasdcxzxcxcx',
           title: 'Dashboard Design',
           author: {
             name: 'Emilee Simchenko',
@@ -1920,7 +1920,7 @@ export class AppController {
           updated_at: moment().subtract(1, 'hour'),
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscacasdcxzxcxcxx',
           title: 'Ten80 Web Design',
           author: {
             name: 'Kwak Seong-Min',
@@ -1943,7 +1943,7 @@ export class AppController {
           updated_at: moment().subtract(16, 'hour'),
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxx',
           title: 'Neura e-commerce UI Kit',
           author: {
             name: 'Shen Zhi',
@@ -1966,7 +1966,7 @@ export class AppController {
           updated_at: moment().subtract(3, 'days'),
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxx',
           title: 'Administrator Dashboard',
           author: {
             name: 'Cao Yu',
@@ -1993,7 +1993,7 @@ export class AppController {
           updated_at: moment().subtract(7, 'days'),
         },
         {
-          id: uuid(),
+          id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxx',
           title: 'Kalli UI Kit',
           author: {
             name: 'Anje Keizer',
@@ -2062,19 +2062,19 @@ export class AppController {
         ],
         members: [
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxx',
             name: 'Ekaterina Tankova',
             avatar: '/images/avatars/avatar_2.png',
             bio: 'Front End Developer',
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxx',
             name: 'Cao Yu',
             avatar: '/images/avatars/avatar_3.png',
             bio: 'UX Designer',
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxx',
             name: 'Anje Keizer',
             avatar: '/images/avatars/avatar_5.png',
             bio: 'Copyright',
@@ -2082,21 +2082,21 @@ export class AppController {
         ],
         files: [
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxx',
             name: 'example-project1.jpg',
             url: '/images/projects/project_2.jpg',
             mimeType: 'image/png',
             size: 1024 * 1024 * 3,
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxx',
             name: 'docs.zip',
             url: '#',
             mimeType: 'application/zip',
             size: 1024 * 1024 * 25,
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxx',
             name: 'example-project2.jpg',
             url: '/images/projects/project_1.jpg',
             mimeType: 'image/png',
@@ -2105,7 +2105,7 @@ export class AppController {
         ],
         activities: [
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxxx',
             subject: 'Project owner',
             subject_type: 'user',
             action_type: 'upload_file',
@@ -2113,7 +2113,7 @@ export class AppController {
             created_at: moment().subtract(23, 'minutes'),
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxxxx',
             subject: 'Adrian Stefan',
             subject_type: 'user',
             action_type: 'join_team',
@@ -2121,14 +2121,14 @@ export class AppController {
             created_at: moment().subtract(2, 'hours'),
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxxxxx',
             subject: 'Alexandru Robert',
             action_type: 'join_team',
             action_desc: 'joined team as a Full Stack Developer',
             created_at: moment().subtract(9, 'hours'),
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxxxxxx',
             subject: 'Project owner',
             subject_type: 'user',
             action_type: 'price_change',
@@ -2136,7 +2136,7 @@ export class AppController {
             created_at: moment().subtract(2, 'days'),
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxxxxxxx',
             subject: 'Contest',
             subject_type: 'project',
             action_type: 'contest_created',
@@ -2146,7 +2146,7 @@ export class AppController {
         ],
         subscribers: [
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxxxxxxxx',
             name: 'Ekaterina Tankova',
             avatar: '/images/avatars/avatar_2.png',
             cover: '/images/covers/cover_1.jpg',
@@ -2160,7 +2160,7 @@ export class AppController {
             ],
           },
           {
-            id: uuid(),
+            id: '34cccsazcfdxdsadfvscacasdcxzxcxcxxxxxxxxxxxxxxxxxx',
             name: 'Cao Yu',
             avatar: '/images/avatars/avatar_3.png',
             cover: '/images/covers/cover_2.jpg',
@@ -2173,7 +2173,7 @@ export class AppController {
             ],
           },
           {
-            id: uuid(),
+            id: '1',
             name: 'Clarke Gillebert',
             avatar: '/images/avatars/avatar_6.png',
             cover: '/images/covers/cover_2.jpg',
@@ -2192,7 +2192,7 @@ export class AppController {
     return {
       posts: [
         {
-          id: uuid(),
+          id: '12',
           author: {
             name: 'Kwak Seong-Min',
             avatar: '/images/avatars/avatar_10.png',
@@ -2202,7 +2202,7 @@ export class AppController {
           likes: 1,
           comments: [
             {
-              id: uuid(),
+              id: '123',
               author: {
                 name: 'Merrile Burgett',
                 avatar: '/images/avatars/avatar_12.png',
@@ -2214,7 +2214,7 @@ export class AppController {
           created_at: moment().subtract(16, 'minutes'),
         },
         {
-          id: uuid(),
+          id: '1234',
           author: {
             name: 'Shen Zhi',
             avatar: '/images/avatars/avatar_11.png',
@@ -2226,7 +2226,7 @@ export class AppController {
           likes: 24,
           comments: [
             {
-              id: uuid(),
+              id: '1234ds',
               author: {
                 name: 'Anje Keizer',
                 avatar: '/images/avatars/avatar_5.png',
@@ -2235,7 +2235,7 @@ export class AppController {
               created_at: moment().subtract(3, 'hours'),
             },
             {
-              id: uuid(),
+              id: '1234dss',
               author: {
                 name: 'Ava Gregoraci',
                 avatar: '/images/avatars/avatar_8.png',
@@ -2248,7 +2248,7 @@ export class AppController {
           created_at: moment().subtract(4, 'hours'),
         },
         {
-          id: uuid(),
+          id: '1234dsss',
           author: {
             name: 'Shen Zhi',
             avatar: '/images/avatars/avatar_11.png',
@@ -2259,7 +2259,7 @@ export class AppController {
           likes: 65,
           comments: [
             {
-              id: uuid(),
+              id: '1234dssss',
               author: {
                 name: 'Clarke Gillebert',
                 avatar: '/images/avatars/avatar_6.png',
@@ -2269,7 +2269,7 @@ export class AppController {
               created_at: moment().subtract(3, 'hours'),
             },
             {
-              id: uuid(),
+              id: '1234dsssss',
               author: {
                 name: 'Alexa Richardson',
                 avatar: '/images/avatars/avatar_4.png',
@@ -2289,7 +2289,7 @@ export class AppController {
     return {
       tasks: [
         {
-          id: uuid(),
+          id: '1234dssssss',
           title: 'Update the API for the project',
           deadline: moment()
             .add(1, 'days')
@@ -2304,7 +2304,7 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: '1234dsssssss',
           title: 'Redesign the landing page',
           deadline: moment()
             .add(2, 'day')
@@ -2316,13 +2316,13 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: '1234dssssssss',
           title: 'Solve the bug for the showState',
           deadline: moment(),
           members: ['/images/avatars/avatar_7.png'],
         },
         {
-          id: uuid(),
+          id: '1234dsssssssss',
           title: 'Release v1.0 Beta',
           deadline: null,
           members: [
@@ -2331,7 +2331,7 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: '1234dssssssssss',
           title: 'GDPR Compliance',
           deadline: null,
           members: [
@@ -2341,7 +2341,7 @@ export class AppController {
           ],
         },
         {
-          id: uuid(),
+          id: '1234dsssssssssss',
           title: 'Redesign Landing Page',
           deadline: null,
           members: ['/images/avatars/avatar_8.png'],
@@ -2362,7 +2362,7 @@ export class AppController {
     return {
       posts: [
         {
-          id: uuid(),
+          id: '1234dssssssssssss',
           author: {
             name: 'Shen Zhi',
             avatar: '/images/avatars/avatar_11.png',
@@ -2374,7 +2374,7 @@ export class AppController {
           likes: 24,
           comments: [
             {
-              id: uuid(),
+              id: '1234dsssssssssssss',
               author: {
                 name: 'Anje Keizer',
                 avatar: '/images/avatars/avatar_5.png',
@@ -2383,7 +2383,7 @@ export class AppController {
               created_at: moment().subtract(3, 'hours'),
             },
             {
-              id: uuid(),
+              id: '1234dssssssssssssss',
               author: {
                 name: 'Ava Gregoraci',
                 avatar: '/images/avatars/avatar_8.png',
@@ -2396,7 +2396,7 @@ export class AppController {
           created_at: moment().subtract(4, 'hours'),
         },
         {
-          id: uuid(),
+          id: '1234dsssssssssssssss',
           author: {
             name: 'Shen Zhi',
             avatar: '/images/avatars/avatar_11.png',
@@ -2407,7 +2407,7 @@ export class AppController {
           likes: 65,
           comments: [
             {
-              id: uuid(),
+              id: '1234dssssssssssssssss',
               author: {
                 name: 'Clarke Gillebert',
                 avatar: '/images/avatars/avatar_6.png',
@@ -2417,7 +2417,7 @@ export class AppController {
               created_at: moment().subtract(3, 'hours'),
             },
             {
-              id: uuid(),
+              id: '1234dsssssssssssssssss',
               author: {
                 name: 'Alexa Richardson',
                 avatar: '/images/avatars/avatar_4.png',
@@ -2437,7 +2437,7 @@ export class AppController {
     return {
       projects: [
         {
-          id: uuid(),
+          id: '1234dssssssssssssssssss',
           title: 'Mella Full Screen Slider',
           author: {
             name: 'Anje Keizer',
@@ -2456,7 +2456,7 @@ export class AppController {
           updated_at: moment().subtract(24, 'minutes'),
         },
         {
-          id: uuid(),
+          id: '1234dsssssssssssssssssss',
           title: 'Dashboard Design',
           author: {
             name: 'Devias IO',
@@ -2475,7 +2475,7 @@ export class AppController {
           updated_at: moment().subtract(1, 'hour'),
         },
         {
-          id: uuid(),
+          id: '1234dssssssssssssssssssss',
           title: 'Ten80 Web Design',
           author: {
             name: 'Devias IO',
@@ -2502,7 +2502,7 @@ export class AppController {
     return {
       reviews: [
         {
-          id: uuid(),
+          id: '1234dsssssssssssssssssssss',
           rating: 4,
           message:
             'Shen was really great during the all time session we created the project',
@@ -2520,7 +2520,7 @@ export class AppController {
           created_at: moment().subtract(4, 'hours'),
         },
         {
-          id: uuid(),
+          id: '1234dssssssssssssssssssssss',
           rating: 5,
           reviewer: {
             name: 'Cao Yu',
@@ -2546,35 +2546,35 @@ export class AppController {
     return {
       connections: [
         {
-          id: uuid(),
+          id: 'ZX',
           name: 'Ekaterina Tankova',
           avatar: '/images/avatars/avatar_2.png',
           common: 12,
           status: 'connected',
         },
         {
-          id: uuid(),
+          id: 'ZXx',
           name: 'Cao Yu',
           avatar: '/images/avatars/avatar_3.png',
           common: 10,
           status: 'rejected',
         },
         {
-          id: uuid(),
+          id: 'ZXxx',
           name: 'Alexa Richardson',
           avatar: '/images/avatars/avatar_4.png',
           common: 8,
           status: 'pending',
         },
         {
-          id: uuid(),
+          id: 'ZXxxx',
           name: 'Adam Denisov',
           avatar: '/images/avatars/avatar_7.png',
           common: 5,
           status: 'not_connected',
         },
         {
-          id: uuid(),
+          id: 'ZXxxxx',
           name: 'Ava Gregoraci',
           avatar: '/images/avatars/avatar_8.png',
           common: 1,
